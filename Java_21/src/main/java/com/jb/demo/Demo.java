@@ -2,6 +2,7 @@ package com.jb.demo;
 
 public class Demo {
 	public static String getMessage() {
-		return "Hello Sonu, How are you"; // added on comment but i want one print stmt
+		System.out.println("Demo.getMessage()");
+		return "Hello Sonu, How are you"; // yes i have added the print statement
 	}
 }
